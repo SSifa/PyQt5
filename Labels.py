@@ -5,6 +5,7 @@ from PyQt5.QtGui import QPixmap
 from PyQt5 import QtGui
 import sys
 
+
 class Window(QDialog):
 
     def __init__(self):
@@ -31,11 +32,11 @@ class Window(QDialog):
         label2 = QLabel("Different Font type and Size")
         label2.setFont(QtGui.QFont("sanserif", 20))
 
-        #Changing label2 text color
+        # Changing label2 text color
         label2.setStyleSheet("color:red")
         vbox.addWidget(label2)
 
-        #Adding an image to a label
+        # Adding an image to a label
         label3 = QLabel(self)
         pixmap = QPixmap("home.png")
         label3.setPixmap(pixmap)
