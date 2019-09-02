@@ -1,4 +1,4 @@
-#This program creates a QtMainWindow application
+# This program creates a QtMainWindow application
 
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5 import QtGui
